@@ -1,1 +1,1 @@
-beta-dev
+beta
