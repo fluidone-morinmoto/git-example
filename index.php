@@ -20,7 +20,7 @@ printChar("#");
 printChar("*");
 
 // Print the phrase "Hello World!"
-echo "Hello World!";
+echo "Hello World";
 // Print a new line
 echo "\n";
 
