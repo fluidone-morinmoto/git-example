@@ -1,12 +1,12 @@
 <?php
-
+// "Io sono Fluidone"
 /**
  * This function prints the passed char 29 times, then prints a new line
  *
  * @param $char (char) - the char to print
  *
  * @return void
- * 
+ *
  */
 function printChar($char) {
     for ($i = 0; $i < 29; $i++) {
