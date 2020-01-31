@@ -29,7 +29,7 @@ printChar("*");
 // Print a new line
 echo "\n";
 // Print information about this software for the dummy customer
-echo "Scriviamo ulteriori informazioni perche' lo vuole il cliente\n\n";
+echo "We write more informations because the customer is a little bit stupid\n\n";
 // Read the version number from the version.txt file
 $version = file_get_contents("version.txt");
 // Print the version number
