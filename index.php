@@ -1,4 +1,16 @@
 <?php
+
+/**
+ * This function simulate a log with the echo command
+ *
+ * @param $message (string) - the string to log
+ *
+ * @return void
+ */
+function debug($message) {
+    echo "[ DEBUG ] $message\n";
+}
+
 /**
  * This function prints the passed char 29 times, then prints a new line
  *
@@ -14,11 +26,14 @@ function printChar($char) {
     echo "\n";
 }
 
+debug("Connection...");
+debug("Connected!!!");
 // Print 29 #
 printChar("#");
 // Print 29 *
 printChar("*");
 
+debug("Ready to print the output message");
 // Print the phrase "Hello World!"
 echo "Hello World";
 // Print a new line
@@ -36,4 +51,5 @@ $version = file_get_contents("version.txt");
 echo "Version: $version";
 // Print 29 #
 printChar("#");
+debug("Operation completed")
 ?>
